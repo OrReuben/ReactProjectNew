@@ -26,7 +26,7 @@ function Netflix() {
     ]);
   };
   return (
-    <div className="App">
+    <div className="Netflix">
       <div>
         <AppHeader />
 
@@ -52,11 +52,10 @@ function Netflix() {
 
       <ul>
         {movieList.map((movie, index) => (
-          <MovieList
+          <MovieList key={index}
             inputImage={inputImage}
             inputTitle={inputTitle}
             inputTrailer={inputTrailer}
-            index={index}
             movie={movie}
             movieList={movieList}
             setMovieList={setMovieList}
