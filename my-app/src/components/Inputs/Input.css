@@ -1,0 +1,22 @@
+.input-container input {
+    width: 99%;
+    padding: 8px 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+.buttons-and-inputs-container p{
+    color:white;
+    -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+    font-weight:bold;
+}
+
+.input-container p{
+    text-align: left;
+    margin-bottom: 1px;
+    margin-left: 2px;
+}

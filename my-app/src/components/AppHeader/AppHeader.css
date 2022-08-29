@@ -1,0 +1,18 @@
+.netflix-logo{
+    text-align: left;
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.607),darkred, #1f1c18c7);
+    color: white;
+    font-size: 20px;
+    padding: 0;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+.netflix-logo h1{
+    margin: 0;
+    padding:20px
+}
+.header h1 {
+    text-align: left;
+    margin-left: 2px;
+    
+}

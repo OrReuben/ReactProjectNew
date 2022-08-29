@@ -1,0 +1,39 @@
+#close {
+    margin-right:10px;
+    overflow: hidden;
+    position: relative;
+    border: none;
+    padding: 0;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background: transparent;
+    color: #ffffff;
+    font: inherit;
+    text-indent: 100%;
+    cursor: pointer;
+}
+.delete-button{
+    align-self: center;
+}
+#close:hover {
+    background: rgba(8, 187, 160, 0.61);
+}
+#close:focus {
+    outline: solid 0 transparent;
+    box-shadow: 0 0 0 2px #8ed0f9;
+}
+#close:before, #close:after {
+    position: absolute;
+    top: 15%;
+    left: calc(50% - .0625em);
+    width: 0.125em;
+    height: 70%;
+    border-radius: 0.125em;
+    transform: rotate(45deg);
+    background: currentcolor;
+    content:''
+   ;
+}
+#close:after {
+    transform: rotate(-45deg);}
